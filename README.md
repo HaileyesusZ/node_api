@@ -18,9 +18,8 @@ The tests are found in test folder with each api having its own test file.
 
 ## Note
 
-The test script will disable pino by setting an environment variable. If you are <br />
-running on windows replace the test script with 'SET NOLOG=true & mocha'. <br />
+The test script will disable pino by setting an environment variable. <br />
 
-A custom jwt token can be set in package.json. <br />
+A custom jwt token can be set in package.json.<br />
 On production, environment variables can be set in an .env file and can be run using dotenv <br />
-as a dev dependency, using its preload option
+as a dev dependency, using its preload option.
