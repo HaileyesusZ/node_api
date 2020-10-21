@@ -18,8 +18,8 @@ The tests are found in test folder with each api having its own test file.
 
 ## Note
 
-The test script will disable pino by setting an environment variable. <br />
+The test script disables pino by setting an environment variable in package.json (for this task) <br />
 
-A custom jwt token can be set in package.json.<br />
-On production, environment variables can be set in an .env file and can be run using dotenv <br />
+A custom jwt token is also set in package.json.<br />
+On production, environment variables can be set in an ignored .env file and can be run using dotenv library <br />
 as a dev dependency, using its preload option.
