@@ -11,9 +11,9 @@ pino - for logging <br />
 
 ## How to run
 
-First run 'npm install' or 'yarn install', <br />
-then start the task with 'npm start' or 'yarn start'. <br />
-To run the tests, use 'npm test' or 'yarn test' script.
+First run 'npm install', <br />
+then start the task with 'npm start'. <br />
+To run the tests, use 'npm test' script.
 The tests are found in test folder with each api having its own test file.
 
 ## Note
