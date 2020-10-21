@@ -1,2 +1,0 @@
-require('./loginAPITest')
-require('./patchJSONAPITest')

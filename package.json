@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "NOLOG=true mocha",
-    "start": "node server.js"
+    "start": "JWT_TOKEN=UggCYA8AM8EXc3F48uLUF03WUhpDd4oX node server.js"
   },
   "author": "",
   "license": "ISC",
